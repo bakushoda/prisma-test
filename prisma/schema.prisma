@@ -17,4 +17,5 @@ model Posts {
   id Int @default(autoincrement()) @id
   title String
   content String
+  CreatedAt DateTime @default(now())
 }
